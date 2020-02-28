@@ -3,17 +3,11 @@
 > [simRes](doc/eventDrivenRestaurantSim_EndTime_60_output.pdf) - an event-driven simulator 
 > written in C++, by Mert Türkol.
 
-This repository provides the source-code of an event-driven restaurant service 
-simulator. The program considers randomized customer arrival and service 
-times from probability distributions. 
-
-The project is written in C++ by Mert Türkol, for coursework in EECS402: 
-Computer Programming For Scientists and Engineers, offered at the University of Michigan.
-
 ## Table of Contents
 
 <!-- vim-markdown-toc GFM -->
 
+* Description (#description)
 * [Installation](#installation)
     * [Compilation](#compilation)
 * [Usage](#usage)
@@ -21,12 +15,28 @@ Computer Programming For Scientists and Engineers, offered at the University of 
 
 <!-- vim-markdown-toc -->
 
+## Description
+
+This repository provides the source-code of an event-driven restaurant service 
+simulator. 
+
+The program considers randomized customer arrival and service 
+times from probability distributions. Sorted Doubly Linked List and Queue 
+templated classes were personally developed for the event list and the customer 
+line respectively. Statistical accumulations such as the longest line, average 
+service and waiting times, as well as the percentages of server busy time, 
+customers served and customers waited in line are computed and reported. 
+
+The project is written in C++ by Mert Türkol, for coursework in EECS402: 
+Computer Programming For Scientists and Engineers, offered at the University of 
+Michigan.
+
 ## Installation
 
 ### Compilation
 
-The only requirement is the `g++` compiler. `Makefile` utilizes `g++` to compile `simRes`. 
-To automatically compile all the source-code, at the command shell simply type:
+Only requirement is the `g++` compiler. `Makefile` utilizes `g++` to compile 
+`simRes`. To compile all the source-code, at the command shell simply type:
 
 ```
 $ make
@@ -62,4 +72,4 @@ along with the simulation history:
   * Number of customers the longest line was composed of during the simulation
   
 Sample output of a simulation that was 60 time-units long can be accessed using the link below:   
-  * [Sample simulation output and memory error check](doc/eventDrivenRestaurantSim_EndTime_60_output.pdf)  
+  * [Sample simulation output and report for memory error check](doc/eventDrivenRestaurantSim_EndTime_60_output.pdf)  
