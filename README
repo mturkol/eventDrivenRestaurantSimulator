@@ -7,10 +7,8 @@ This repository provides the source-code of an event-driven restaurant service
 simulator. The program considers randomized customer arrival and service 
 times from probability distributions. 
 
-The project is written in C++ by Mert Türkol, for coursework in 
-EECS402: Computer Programming For Scientists and Engineers, offered at the University of Michigan.
-
-![Screenshot](doc/ss1.png)
+The project is written in C++ by Mert Türkol, for coursework in EECS402: 
+Computer Programming For Scientists and Engineers, offered at the University of Michigan.
 
 ## Table of Contents
 
@@ -19,7 +17,7 @@ EECS402: Computer Programming For Scientists and Engineers, offered at the Unive
 * [Installation](#installation)
     * [Compilation](#compilation)
 * [Usage](#usage)
-* [Sample Output](#sample output)
+* [Sample Output](#sampleoutput)
 
 <!-- vim-markdown-toc -->
 
@@ -44,7 +42,7 @@ After the source-code gets compiled, `simRes` can be called from the command lin
 $ ./simRes.exe
 ```
 
-An interactive menu will greet the user and ask for input (via the keyboard) 
+An interactive menu will greet the user and ask for input (via keyboard) 
 the following simulation parameters:
   * Duration of the simulation
   * The seed of the random number generator
@@ -53,7 +51,7 @@ the following simulation parameters:
 
 ## Sample Output
 
-After a successful execution of the program, the following statistics of the simulation are computed and reported:
+After successful execution of the program, the following statistics of the simulation are computed and reported:
   * Total customers simulated
   * Percentage of time the server was busy
   * Percentage of the customers that the server completed serving
@@ -62,4 +60,5 @@ After a successful execution of the program, the following statistics of the sim
   * Average waiting time
   * Number of customers the longest line was composed of during the simulation
   
-  * [Networked Battleship Game Presentation](doc/Networked_Battleship_Game_Presentation.pdf)  
+A sample output of 60 time-units of simulation can be accessed using the link below:   
+  * [Sample simulation output and memory error check](doc/eventDrivenRestaurantSim_EndTime_60_output.pdf)  
