@@ -7,7 +7,7 @@
 
 <!-- vim-markdown-toc GFM -->
 
-* Description (#description)
+* [Description](#description)
 * [Installation](#installation)
     * [Compilation](#compilation)
 * [Usage](#usage)
