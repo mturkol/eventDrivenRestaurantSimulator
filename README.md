@@ -17,7 +17,7 @@ Computer Programming For Scientists and Engineers, offered at the University of 
 * [Installation](#installation)
     * [Compilation](#compilation)
 * [Usage](#usage)
-* [Sample Output](#sampleoutput)
+* [Output](#output)
 
 <!-- vim-markdown-toc -->
 
@@ -42,23 +42,24 @@ After the source-code gets compiled, `simRes` can be called from the command lin
 $ ./simRes.exe
 ```
 
-An interactive menu will greet the user and ask for input (via keyboard) 
-the following simulation parameters:
-  * Duration of the simulation
+An interactive menu will greet the user and ask for input (via keyboard) the 
+following simulation parameters:
+  * Duration of simulation
   * The seed of the random number generator
   * The minimum and maximum ranges of the uniformly distributed random customer arrival times
   * The mean and standard deviation of the normally distributed random service times
 
-## Sample Output
+## Output
 
-After successful execution of the program, the following statistics of the simulation are computed and reported:
+After a simulation completes, the following statistics are computed and reported 
+along with the simulation history:
   * Total customers simulated
   * Percentage of time the server was busy
-  * Percentage of the customers that the server completed serving
+  * Percentage of customers the server completed serving
   * Average service time
-  * Percentage of the customers waited in the line
+  * Percentage of customers waited in the line
   * Average waiting time
   * Number of customers the longest line was composed of during the simulation
   
-A sample output of 60 time-units of simulation can be accessed using the link below:   
+Sample output of a simulation that was 60 time-units long can be accessed using the link below:   
   * [Sample simulation output and memory error check](doc/eventDrivenRestaurantSim_EndTime_60_output.pdf)  
